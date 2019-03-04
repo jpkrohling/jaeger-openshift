@@ -1,12 +1,12 @@
 # Jaeger OpenShift Templates
 
-## Consider using the Jaeger Operator!
+## This repository is deprecated
 
 The current recommended way of installing and managing Jaeger in a production OpenShift cluster is via the [Jaeger Operator](https://github.com/jaegertracing/jaeger-operator).
 
 You can still use, report issues and send pull-requests against this repository, but not all features from the Operator are possible or will be backported to the templates from this repository here.
 
-Use the templates from this repository if you need a quick start and don't want to install the Operator.
+Use the [Kubernetes templates](https://github.com/jaegertracing/jaeger-kubernetes) if you need a quick start and don't want to install the Operator.
 
 ## Development setup
 This template uses an in-memory storage with a limited functionality for local testing and development.
